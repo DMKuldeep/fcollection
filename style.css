@@ -654,8 +654,43 @@ p.line4 {
 }
 
 
+.whitetopgirlgreen{
+  flex-shrink: 0;
+  width: 721px;
+height: 581px;
+flex-shrink: 0;
+}
 
+.video .whitetopgirl{
+  width: 721px;
+  height: 581px;
+  flex-shrink: 0;
+}
 
+input[type="email"] {
+  border-radius: 4px;
+  width: 411px;
+  height: 36px;
+  flex-shrink: 0;
+  padding-right: 20px;
+
+}
+
+.input-addon {
+  margin-top: -31px;
+  margin-left: 380px;
+}
+
+input[type="email"]::placeholder{
+  color: #000;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; 
+  text-transform: capitalize;
+  
+}
 .whitetopgirl1 {
   width: 1442px;
   width: 100%;
@@ -1196,10 +1231,7 @@ p.line4 {
   transform: scale(1.1);
 }
 
-svg {
-  margin-top: 8px;
-  margin-left: -18px;
-}
+
 
 
 
