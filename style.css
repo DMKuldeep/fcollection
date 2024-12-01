@@ -10,6 +10,48 @@
   overflow-x: hidden;
 }
 
+
+
+/* collection connect */
+
+
+
+.icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+.collections {
+  display: none;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.collections.active {
+  display: block;
+}
+
+.image2last15{
+
+  background: url("./assets/images/collectiion5.jfif") no-repeat center center;
+
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 848px;
+  flex-shrink: 0;
+}
+
+.image2last16{
+
+  background: url("./assets/images/collectiion6.jfif") no-repeat center center;
+
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 848px;
+  flex-shrink: 0;
+}
+
 .container-fluid {
   display: flex;
   padding: 0;
@@ -83,8 +125,10 @@ p.SÖTBELLA {
   margin-top: 32px;
 }
 
+
+
 .headercollection .list-inline-item:not(:last-child) {
-  margin-right: 24px; /* Corrected to lowercase 'px' */
+  margin-right: 24px;
 }
 
 p.togglemenu {
@@ -177,16 +221,12 @@ p.filter1 {
 }
 
 .image5 {
-  /* width: 300px;
-  height: 357px; */
   background-image: url("./assets/images/section5image2.png");
   background-size: cover;
   background-position: center;
 }
 
 .image6 {
-  /* width: 300px;
-  height: 357px; */
   background-image: url("./assets/images/lastsection\ image.png");
   background-size: cover;
   background-position: center;
@@ -215,7 +255,6 @@ p.filter1 {
 
 .whitetopgirl {
   width: 100%;
-  /* height: 888px; */
   flex-shrink: 0;
 }
 
@@ -264,11 +303,8 @@ p.filter1 {
 .section6 .centered {
   position: absolute;
   top: 50%;
-  /* Center vertically */
   left: 50%;
-  /* Center horizontally */
   transform: translate(-50%, -50%);
-  /* Adjust for the element's own dimensions */
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
@@ -277,7 +313,6 @@ p.filter1 {
   font-style: normal;
   font-weight: 400;
   line-height: 104px;
-  /* 108.333% */
 }
 
 .section1text .bottom {
@@ -319,11 +354,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 
 .image11 {
@@ -339,10 +371,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 .imagecollection {
   background: url("./assets/images/collectiion4.jfif") no-repeat center center;
@@ -362,20 +392,17 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 .secondsectionimage2 {
   background: url("./assets/images/tgirl.jfif") no-repeat center center;
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 
@@ -384,9 +411,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 
@@ -396,9 +422,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 
@@ -407,9 +432,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 .thirdsectionimage2 {
@@ -417,9 +441,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 .thirdsectionimage3 {
@@ -427,9 +450,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 .thirdsectionimage1 {
@@ -438,9 +460,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 
@@ -449,9 +470,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 .thirdsectionimage32 {
@@ -459,9 +479,8 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
 }
 
@@ -482,11 +501,9 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 
 .image2last {
@@ -495,24 +512,31 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 581px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 
-.image2last1 {
+
+.imagecollection1 {
+  background: url("./assets/images/collectiion4.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 848px;
+
+  flex-shrink: 0;
+}
+
+.image2last17 {
   background: url("./assets/images/collectiion6.jfif") no-repeat center center;
 
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 581px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 
 .image2last11 {
@@ -521,11 +545,9 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 
 .image2last12 {
@@ -534,32 +556,27 @@ p.filter1 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 
 .blackdress1 {
   background: url("./assets/images/blackdress1.png") no-repeat center center;
   background-size: cover;
   height: 680px;
-  /* Maintain uniform height */
 }
 
 .blackdress2 {
   background: url("./assets/images/blackdress2.png") no-repeat center center;
   background-size: cover;
   height: 680px;
-  /* Maintain uniform height */
 }
 
 .blackdress3 {
   background: url("./assets/images/blackdress3.png") no-repeat center center;
   background-size: cover;
   height: 680px;
-  /* Maintain uniform height */
 }
 
 .heightwidthofimage {
@@ -679,7 +696,6 @@ p.filter1 {
   height: 343px;
   display: flex;
 }
-
 .knockut {
   font-family: "Alike";
   font-size: 36px;
@@ -893,13 +909,11 @@ input[type="email"] {
 .image1:hover .video,
 .image2:hover .video {
   display: block;
-  /* Show video on hover */
 }
 
 .image1:hover .image,
 .image2:hover .image {
   display: none;
-  /* Hide image on hover */
 }
 
 .app-icon {
@@ -962,19 +976,17 @@ input[type="email"] {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  /* Full width of the column */
   height: 848px;
-  /* Maintain the specified height */
+
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 
 .image2last1 {
   background: url("./assets/images/collectiion6.jfif") no-repeat center center;
 
-  display: flex;
-  width: 720px;
-  height: 581px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
@@ -1006,7 +1018,6 @@ input[type="email"] {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  /* Prevent shrinking */
 }
 
 .blackshort {
@@ -1037,21 +1048,18 @@ input[type="email"] {
   background: url("./assets/images/blackdress1.png") no-repeat center center;
   background-size: cover;
   height: 680px;
-  /* Maintain uniform height */
 }
 
 .blackdress2 {
   background: url("./assets/images/blackdress2.png") no-repeat center center;
   background-size: cover;
   height: 680px;
-  /* Maintain uniform height */
 }
 
 .blackdress3 {
   background: url("./assets/images/blackdress3.png") no-repeat center center;
   background-size: cover;
   height: 680px;
-  /* Maintain uniform height */
 }
 
 .spotlight {
