@@ -125,6 +125,77 @@ p.SÖTBELLA {
   margin-top: 32px;
 }
 
+/* 
+.showtexthover {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlaytext:hover .showtexthover {
+  opacity: 0.3;
+}
+
+.overlaytext:hover .middle {
+  opacity: 1;
+} */
+
+
+.overlaytext {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+a:link, a:visited {
+
+  text-decoration: none;
+
+  color: black; /* Set your desired default link color */
+
+}
+
+.middle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 60%;
+  left: 70%;
+}
+
+.image11:hover .middle {
+  opacity: 1; /* Show on hover */
+}
+
+.image22:hover .middle {
+  opacity: 1; /* Show on hover */
+}
+
+.imagecollection:hover .middle{
+  opacity: 1;
+}
 
 
 .headercollection .list-inline-item:not(:last-child) {
