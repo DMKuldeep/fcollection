@@ -26,3 +26,4 @@ icons.forEach(icon => {
         document.getElementById(targetId).classList.add('active');
     });
 });
+

@@ -102,6 +102,8 @@ input[type="email"]::placeholder {
   flex-shrink: 0;
 }
 
+
+
 .SÖTBELLA {
   font-weight: 400;
   line-height: 64px;
@@ -122,8 +124,30 @@ p.SÖTBELLA {
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
-  margin-top: 32px;
+  margin-top: 16px;
+  margin-left: 16px;
 }
+
+a.text-reset {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Right-Aligned Icons */
+.row .col-md-6:last-child a {
+  margin-right: 12px; /* 24px gap between icons */
+}
+
+.row .col-md-6:last-child a:last-child {
+  margin-right: 0; /* No margin on the last icon */
+}
+
+.icon.active svg rect {
+  fill: black; /* Fills the rectangle with black color */
+  stroke: white; /* Optional: Changes the stroke color for contrast */
+}
+
+
 
 /* 
 .showtexthover {
@@ -269,6 +293,11 @@ p.filter1 {
   font-weight: 500;
   line-height: 22px;
   text-transform: uppercase;
+  margin-left: 0px;
+}
+
+.col-md-4.text-center.linksall.text-style {
+  margin-left: -20px;
 }
 
 .image1,
