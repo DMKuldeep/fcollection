@@ -204,6 +204,26 @@ a:link, a:visited {
   background-color: #000;
   color: white;
   padding: 8px 0px;
+  text-decoration: none; /* Removes underline */
+
+}
+
+.position-relative {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 70%; /* Center vertically */
+  left: 75%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  color: white; /* Text color */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+.position-relative:hover .overlay-text {
+  opacity: 1; /* Show text on hover */
 }
 
 
