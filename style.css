@@ -160,10 +160,6 @@ a.text-reset {
   backface-visibility: hidden;
 }
 
-.middle {
-
-}
-
 .overlaytext:hover .showtexthover {
   opacity: 0.3;
 }
@@ -171,6 +167,17 @@ a.text-reset {
 .overlaytext:hover .middle {
   opacity: 1;
 }
+
+.rect-fill {
+  stroke: black;
+  fill: none;
+  transition: fill 0.3s ease;
+}
+
+.icon.active .rect-fill {
+  fill: black;
+}
+
 
 
 .overlaytext {
