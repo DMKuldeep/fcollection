@@ -149,7 +149,7 @@ a.text-reset {
 
 
 
-/* 
+
 .showtexthover {
   opacity: 1;
   display: block;
@@ -176,7 +176,7 @@ a.text-reset {
 
 .overlaytext:hover .middle {
   opacity: 1;
-} */
+}
 
 
 .overlaytext {
