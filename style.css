@@ -126,6 +126,7 @@ p.SÖTBELLA {
   line-height: 64px;
   margin-top: 16px;
   margin-left: 16px;
+  text-decoration: none;
 }
 
 a.text-reset {
@@ -160,14 +161,7 @@ a.text-reset {
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 70%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+
 }
 
 .overlaytext:hover .showtexthover {
@@ -238,21 +232,21 @@ a:link, a:visited {
   justify-content: center;
   align-items: center;
   text-align: center;
-  top: 60%;
-  left: 70%;
+
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .image11:hover .middle {
   opacity: 1; /* Show on hover */
 }
 
-.image22:hover .middle {
-  opacity: 1; /* Show on hover */
-}
-
-.imagecollection:hover .middle{
-  opacity: 1;
-}
 
 
 /* .headercollection .list-inline-item:not(:last-child) {
