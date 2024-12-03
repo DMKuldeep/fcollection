@@ -360,6 +360,13 @@ p.filter1 {
   align-items: center;
   flex-shrink: 0;
 }
+.imagefullwidth{
+  background-image: url("./assets/images/collection3.jfif");
+  background-size: cover;
+  background-position: center center;
+
+}
+
 
 .whitetopgirl {
   width: 100%;
