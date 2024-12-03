@@ -336,6 +336,21 @@ p.filter1 {
 
 }
 
+/* Style for active icons */
+.icon.active {
+  color: #fff; /* White text when active */
+}
+
+/* Hide inactive content sections */
+.collection {
+  display: none;
+}
+
+/* Show active content */
+.collection.active {
+  display: block;
+}
+
 
 .image1,
 .image2 {
